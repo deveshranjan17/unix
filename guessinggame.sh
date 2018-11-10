@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # File: guessinggame.sh.
-
 function compare_real_guess {
 	if [[ $2 =~ ^[0-9]+ ]]
 	then
